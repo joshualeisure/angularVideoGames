@@ -1,6 +1,9 @@
 # NgVideoAngularApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12. THIS IS A WORK IN PROGRESS
+While still in progress, I am creating an Angular 11 project using a public API to create a video game database. The API is called RAWG Video Games Database and provides many details like popularity and rating. I began the project by using Angular CLI and then I created components, http calls using HttpClient module for the API, http interceptors to intercept incoming and outgoing HTTP requests, and services within the project. I also performed data passing with routes (RouterModule and Routes) and pipes as well as Angular directives like ngFor and ngIf statements. Other classes I used were HttpHandler and Injectable for dispatching requests, HttpRequest for outgoing requests such as headers, and Observable and observableThrowError for passing messages between components. For styling, I used SCSS and mat-form-fields, mat-select, and mat-option. 
+The main features the user has is the ability to sort different categories of the video games based on popularity, release date, etc… Eventually, the user will be able to view the details of the game such as the plot and trailers. 
+
+
 
 ## Development server
 
